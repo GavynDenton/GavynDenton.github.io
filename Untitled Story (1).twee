@@ -1,0 +1,133 @@
+:: StoryTitle
+Untitled Story
+
+
+:: StoryData
+{
+  "ifid": "891386D8-35C7-43FF-8163-45F6DA507892",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "Untitled Passage",
+  "zoom": 1
+}
+
+
+:: \ Continue {"position":"550,500","size":"100,100"}
+You finally reach the end of the cave and fine the source of the growling...
+A small cat was purring, just enjoying life.
+You decide to turn arround and head back to the split in the path.
+[[Continue<-Return to path]]
+
+
+:: \ Dark Cave {"position":"750,500","size":"100,100"}
+As you approach the dark cave you hear growling from deep inside...
+The growling gets louder and louder the further into the cave you go.
+
+<img src="https://gavyndenton.github.io/cat in cave.jfif" width="500">
+
+[[next -> Continue]]
+
+
+:: \ Dense Jungle {"position":"800,300","size":"100,100"}
+As you head into the forest you start to smell something funny. But you continue on untile you exist the forest and arrive at a lake, the smell gets much stronger, as you look around for the cause of the smell, suddenly a giant white glob lands infront of you.
+[[Next]]
+
+
+:: \ cliff {"position":"1250,300","size":"100,100"}
+You find your self at a cliff above the lake the ants surrounding you, and the giant bird diving at you, you have to choose to accept your fate and die or jump into the lake.
+[[Jump->Dive in the lake]]
+[[Accept your fate->Game Over]]
+
+
+:: Continue {"position":"650,300","size":"100,100"}
+As you venture deeper into the island, you come across a fork in the road. Do you choose to go left towards the dark cave, or right towards the dense jungle?
+[[Left-> Dark Cave]]
+[[Right-> Dense Jungle]]
+[[Turn around and go home->Game Over2]]
+
+<img src="https://gavyndenton.github.io/Path split.jfif" width="500">
+
+
+:: Dive in the lake {"position":"1100,425","size":"100,100"}
+You hit the water hard and almost pass out but are able to maintain conscious. You look up and see the ants falling into the water and the giant birds attacking them, you look down and see a light shining far below you. You can't hold your breathe forever and have to either swim up to the surface or swim down to the light.
+
+[[Swim Up]]
+[[Swim Down]]
+
+
+:: Game Over {"position":"900,125","size":"100,100"}
+(align:"=><=")[(text-colour:red)+(text-style:"bold")+(text-size:3)
+[GAME OVER...]
+(text-size:2)[YOU HAVE DIED]]
+
+
+
+
+
+(align:"=><=")[[Untitled Passage<-Restart]]
+
+
+:: Game Over2 {"position":"575,125","size":"100,100"}
+(align:"=><=")[(text-colour:blue)+(text-style:"bold")+(text-size:3)
+[GAME OVER...]
+(text-size:1)[YOU LEAVE WITH YOUR LIFE
+BUT NOT YOUR DIGNITY]]
+
+(align:"=><=")[<img src="https://gavyndenton.github.io/SailingAway.jfif" width="500">]
+
+(align:"=><=")[[Untitled Passage<-Restart]]
+
+
+:: Game Over3 {"position":"1350,500","size":"100,100"}
+(align:"=><=")[(text-colour:blue)+(text-style:"bold")+(text-size:3)
+[GAME OVER...]
+(text-size:1)[YOU LEAVE WITH YOUR LIFE
+AND THREE BILLION IN TREASURE]]
+
+(align:"=><=")[<img src="https://gavyndenton.github.io/SailingAway.jfif" width="500">]
+
+(align:"=><=")[[Untitled Passage<-Restart]]
+
+
+:: Next {"position":"950,300","size":"100,100"}
+You look up to see where the goo came from and you see a flock of birds, larger than any birds youve ever seen. The bird leading has a windspan as wide as a skyscraper is tall. The smaller birds that are the size of cars spot you down below and start diving to attack you. Do you run turn around and run back into the forest or Dive into the lake for cover?
+
+<img src="https://gavyndenton.github.io/Bird.jfif" width="500">
+
+[[Run back]]
+[[Dive in the lake]]
+
+
+:: Run back {"position":"1100,300","size":"100,100"}
+You run back into the forest just to encounter a ton of giant ants...
+
+<img src="https://gavyndenton.github.io/Ants.jfif" width="500">
+
+They start to chase you as you run in a random direction in the forest...
+[[Continue-> cliff]]
+
+
+:: Swim Down {"position":"1225,525","size":"100,100"}
+You begin to swim deeper into the water, slowly getting closer to the light. As you're about to run out of breath you reach a cave, the cave is full of gold and other treasures.
+
+
+<img src="https://gavyndenton.github.io/CaveWgold.jfif" width="500">
+
+
+The cave also has a path leading to the surface, you grab as much gold and gems as you can and make your way out of the cave, to the surface, and off the island.
+
+[[Game Over3<- Continue]] 
+
+
+:: Swim Up {"position":"975,525","size":"100,100"}
+You swim to the surface as fast as you can and as soon as you reach the surface and begin to catch your breath the largest of the birds dives directly at you, impailing you with its beak. You close your eyes, a slingle tear runs down your cheek and you die.
+
+[[Game Over<-Continue]] 
+
+
+:: Untitled Passage {"position":"500,300","size":"100,100"}
+Welcome to ''Island of Mystery''
+You are a brave explorer who has just landed on a mysterious island. You've heard rumors of ancient treasures and mystical creatures that inhabit the island, and you're eager to discover its secrets.
+[[Continue]]
+
+<img src="https://gavyndenton.github.io/Arriving.jfif" width="500">
